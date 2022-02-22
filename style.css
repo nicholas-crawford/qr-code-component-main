@@ -1,0 +1,39 @@
+.qr {
+    background-color: #D5E1EF;
+    font-family: 'Outfit', sans-serif;
+}
+
+.qr__content {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    background-color: #FFFFFF;
+    padding: 16px 0;
+}
+
+.qr__code {
+    width: 288px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+.qr__text {
+    padding: 0 28px;
+}
+
+.qr__heading {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1F314F;
+    text-align: center;
+}
+
+.qr__description {
+    font-size: 15px;
+    color: #7D889E;
+    text-align: center;
+}
